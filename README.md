@@ -4,29 +4,29 @@
 ## Estructura del Proyecto
 globettravel/
 │
-├── index.html                  # Página Principal (Home)
+├── index.html # Página Principal (Home)
 │
-├── pages/                     # Páginas del sitio
-│   ├── destinos.html          # Galería de destinos + filtros CSS
-│   ├── agencias.html          # Tarjetas flip
-│   ├── precios.html           # Comparador de precios + tooltips
-│   ├── blog.html              # Blog estilo revista + filtros + comentarios
-│   └── contactenos.html       # Formulario avanzado
+├── pages/ # Páginas del sitio
+│ ├── destinos.html # Galería de destinos + filtros CSS
+│ ├── agencias.html # Tarjetas flip
+│ ├── precios.html # Comparador de precios + tooltips
+│ ├── blog.html # Blog estilo revista + filtros + comentarios
+│ └── contactenos.html # Formulario avanzado
 │
 ├── css/
-│   ├── agenciesstyle.css      # Estilos agencias (flip cards + rating)
-│   ├── blogstyle.css          # Estilos blog (grid revista + comentarios)
-│   ├── contactenos.css        # Formulario + modal + validación
-│   ├── destinostyle.css       # Destinos (grid + filtros)
-│   ├── preciosstyle.css       # Tabla comparativa + tooltips
-│   └── style.css              # Estilos globales (header/footer/base)
+│ ├── agenciesstyle.css # Estilos agencias (flip cards + rating)
+│ ├── blogstyle.css # Estilos blog
+│ ├── contactenos.css # Formulario + modal + validación
+│ ├── destinostyle.css # Destinos (grid + filtros)
+│ ├── preciosstyle.css # Tabla + tooltips
+│ └── style.css # Estilos globales
 │
 ├── js/
-│   └── darktheme.js           # Modo oscuro / claro
+│ └── darktheme.js # Modo oscuro / claro
 │
 └── assets/
-    ├── images/                # Imágenes del sitio
-    └── video/                 # Videos del sitio
+├── images/ # Imágenes del sitio
+└── video/ # Videos del sitio
 
 ## Sistema de Diseño
 ### Paleta de colores
