@@ -2,30 +2,31 @@
 ## Práctica HTML5 + CSS
 
 ## Estructura del Proyecto
+globettravel/
 │
-├── index.html              ← Página Principal (Home)
+├── index.html                  # Página Principal (Home)
 │
-├── pages/                  ← paginas del sitio
-│   ├── destinos.html           ← Galería de destinos + filtros CSS
-│   ├── agencias.html           ← Tarjetas flip
-│   ├── precios.html            ← Comparador de precios + tooltips
-│   ├── blog.html               ← Blog estilo revista + filtros + comentarios
-│   └── contactenos.html        ← Formulario avanzado
+├── pages/                     # Páginas del sitio
+│   ├── destinos.html          # Galería de destinos + filtros CSS
+│   ├── agencias.html          # Tarjetas flip
+│   ├── precios.html           # Comparador de precios + tooltips
+│   ├── blog.html              # Blog estilo revista + filtros + comentarios
+│   └── contactenos.html       # Formulario avanzado
 │
 ├── css/
-│   ├── agenciasstyle.css       ← Variables CSS (colores, tema, espaciado)
-│   ├── blogstyle.css            ← Reset + tipografía general
-│   ├── contactenos.css          ← Header + Footer + estructura global
-│   ├── destinostyle.css      ← Botones, cards, tooltips, modales
-│   ├── preciosstyle.css        ← Grid de destinos + filtros CSS
-│   └── style.css        ← Flip cards + rating estrellas
+│   ├── agenciesstyle.css      # Estilos agencias (flip cards + rating)
+│   ├── blogstyle.css          # Estilos blog (grid revista + comentarios)
+│   ├── contactenos.css        # Formulario + modal + validación
+│   ├── destinostyle.css       # Destinos (grid + filtros)
+│   ├── preciosstyle.css       # Tabla comparativa + tooltips
+│   └── style.css              # Estilos globales (header/footer/base)
 │
 ├── js/
-│   └── darktheme.js             ← Modo oscuro
+│   └── darktheme.js           # Modo oscuro / claro
 │
 └── assets/
-    ├── images/             ← imágenes del sitio
-    └── video/              ← videos del sitio
+    ├── images/                # Imágenes del sitio
+    └── video/                 # Videos del sitio
 
 ## Sistema de Diseño
 ### Paleta de colores
